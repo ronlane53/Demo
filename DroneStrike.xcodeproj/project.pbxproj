@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AC9AD6B1D4536870096C055 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC9AD6A1D4536870096C055 /* AppDelegate.swift */; };
+		7AC9AD6D1D4536870096C055 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC9AD6C1D4536870096C055 /* MasterViewController.swift */; };
+		7AC9AD6F1D4536870096C055 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC9AD6E1D4536870096C055 /* DetailViewController.swift */; };
+		7AC9AD741D4536870096C055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AC9AD731D4536870096C055 /* Assets.xcassets */; };
+		7AC9AD771D4536870096C055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AC9AD751D4536870096C055 /* LaunchScreen.storyboard */; };
+		7AC9AD831D453B5E0096C055 /* Strike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC9AD821D453B5E0096C055 /* Strike.swift */; };
+		7AC9AD871D45EF6D0096C055 /* StrikeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC9AD861D45EF6D0096C055 /* StrikeTableViewCell.swift */; };
+		7AC9AD8B1D474F8C0096C055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AC9AD8A1D474F8C0096C055 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7AC9AD671D4536870096C055 /* DroneStrike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DroneStrike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AC9AD6A1D4536870096C055 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AC9AD6C1D4536870096C055 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		7AC9AD6E1D4536870096C055 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7AC9AD731D4536870096C055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AC9AD761D4536870096C055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AC9AD781D4536870096C055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AC9AD821D453B5E0096C055 /* Strike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strike.swift; sourceTree = "<group>"; };
+		7AC9AD861D45EF6D0096C055 /* StrikeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrikeTableViewCell.swift; sourceTree = "<group>"; };
+		7AC9AD8A1D474F8C0096C055 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AC9AD641D4536870096C055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AC9AD5E1D4536860096C055 = {
+			isa = PBXGroup;
+			children = (
+				7AC9AD691D4536870096C055 /* DroneStrike */,
+				7AC9AD681D4536870096C055 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AC9AD681D4536870096C055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AC9AD671D4536870096C055 /* DroneStrike.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AC9AD691D4536870096C055 /* DroneStrike */ = {
+			isa = PBXGroup;
+			children = (
+				7AC9AD811D453B490096C055 /* Model */,
+				7AC9AD801D4536B10096C055 /* View */,
+				7AC9AD7F1D4536AA0096C055 /* Controller */,
+				7AC9AD7E1D4536960096C055 /* Supporting Files */,
+			);
+			path = DroneStrike;
+			sourceTree = "<group>";
+		};
+		7AC9AD7E1D4536960096C055 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AC9AD6A1D4536870096C055 /* AppDelegate.swift */,
+				7AC9AD731D4536870096C055 /* Assets.xcassets */,
+				7AC9AD751D4536870096C055 /* LaunchScreen.storyboard */,
+				7AC9AD781D4536870096C055 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AC9AD7F1D4536AA0096C055 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AC9AD6C1D4536870096C055 /* MasterViewController.swift */,
+				7AC9AD6E1D4536870096C055 /* DetailViewController.swift */,
+				7AC9AD861D45EF6D0096C055 /* StrikeTableViewCell.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7AC9AD801D4536B10096C055 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AC9AD8A1D474F8C0096C055 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7AC9AD811D453B490096C055 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AC9AD821D453B5E0096C055 /* Strike.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AC9AD661D4536870096C055 /* DroneStrike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AC9AD7B1D4536870096C055 /* Build configuration list for PBXNativeTarget "DroneStrike" */;
+			buildPhases = (
+				7AC9AD631D4536870096C055 /* Sources */,
+				7AC9AD641D4536870096C055 /* Frameworks */,
+				7AC9AD651D4536870096C055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DroneStrike;
+			productName = DroneStrike;
+			productReference = 7AC9AD671D4536870096C055 /* DroneStrike.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AC9AD5F1D4536860096C055 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ron Lane";
+				TargetAttributes = {
+					7AC9AD661D4536870096C055 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D3HXC34Q3E;
+					};
+				};
+			};
+			buildConfigurationList = 7AC9AD621D4536860096C055 /* Build configuration list for PBXProject "DroneStrike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AC9AD5E1D4536860096C055;
+			productRefGroup = 7AC9AD681D4536870096C055 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AC9AD661D4536870096C055 /* DroneStrike */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AC9AD651D4536870096C055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC9AD8B1D474F8C0096C055 /* Main.storyboard in Resources */,
+				7AC9AD771D4536870096C055 /* LaunchScreen.storyboard in Resources */,
+				7AC9AD741D4536870096C055 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AC9AD631D4536870096C055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC9AD6F1D4536870096C055 /* DetailViewController.swift in Sources */,
+				7AC9AD871D45EF6D0096C055 /* StrikeTableViewCell.swift in Sources */,
+				7AC9AD831D453B5E0096C055 /* Strike.swift in Sources */,
+				7AC9AD6D1D4536870096C055 /* MasterViewController.swift in Sources */,
+				7AC9AD6B1D4536870096C055 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7AC9AD751D4536870096C055 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AC9AD761D4536870096C055 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AC9AD791D4536870096C055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AC9AD7A1D4536870096C055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AC9AD7C1D4536870096C055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DroneStrike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ron-lane-solutions.DroneStrike";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7AC9AD7D1D4536870096C055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DroneStrike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ron-lane-solutions.DroneStrike";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AC9AD621D4536860096C055 /* Build configuration list for PBXProject "DroneStrike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AC9AD791D4536870096C055 /* Debug */,
+				7AC9AD7A1D4536870096C055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AC9AD7B1D4536870096C055 /* Build configuration list for PBXNativeTarget "DroneStrike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AC9AD7C1D4536870096C055 /* Debug */,
+				7AC9AD7D1D4536870096C055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AC9AD5F1D4536860096C055 /* Project object */;
+}
